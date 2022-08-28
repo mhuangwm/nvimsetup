@@ -88,6 +88,9 @@ return packer.startup(function(use)
   -- Bufferline
   use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
 
+  -- indent blankline
+  use "lukas-reineke/indent-blankline.nvim"
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
