@@ -16,7 +16,7 @@ vim.g.maplocalleader = " "
 -- keymap("n", "<C-l>", "<C-w>l", opts)
 
 -- Toggles explorer
-keymap("n", "<leader>e", ":Lex 30<cr>", opts)
+keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
 
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize +2<CR>", opts)
