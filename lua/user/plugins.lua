@@ -46,8 +46,12 @@ return packer.startup(function(use)
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
 
   -- Colorschemes
-  use "LunarVim/darkplus.nvim"
   use "folke/tokyonight.nvim"
+  use 'Mofiqul/dracula.nvim'
+  use 'projekt0n/github-nvim-theme'
+  use 'ellisonleao/gruvbox.nvim'
+  use 'sainnhe/sonokai'
+  use 'sainnhe/edge'
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -91,6 +95,8 @@ return packer.startup(function(use)
 
   -- indent blankline
   use "lukas-reineke/indent-blankline.nvim"
+
+  use "fatih/vim-go"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
